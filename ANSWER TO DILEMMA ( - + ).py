@@ -2,8 +2,6 @@
 # coding: utf-8
 
 # In[ ]:
-
-
 import re
 
 
@@ -14,7 +12,7 @@ b = input('- values to dilemma:')
 
 while True:
     c = input('Ask me for the dilemma:') # Typ one word per input
-    if re.findall(c,a,re.VERBOSE):
+    if re.findall(a,b,re.VERBOSE):
         (z)= 1
     else:
         (z)= 0 
@@ -27,8 +25,8 @@ while True:
         print('Maybe yes!')
     elif 0>(z)+(z1):
         print('Maybe not!')
-    else:
-        print('Not idea.')
+    elif 0==(z)+(z1):
+        print('Not idea!')
 
 
 # In[ ]:
