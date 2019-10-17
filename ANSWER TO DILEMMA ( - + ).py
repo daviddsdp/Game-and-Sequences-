@@ -13,12 +13,12 @@ b = input('- values to dilemma:')
     
 
 while True:
-    b = input('Ask me for the dilemma:') # Typ one word per input
-    if re.findall(b,a,re.VERBOSE):
+    c = input('Ask me for the dilemma:') # Typ one word per input
+    if re.findall(c,a,re.VERBOSE):
         (z)= 1
     else:
         (z)= 0 
-    if re.findall(b,a,re.VERBOSE):
+    if re.findall(c,b,re.VERBOSE):
         (z1)= 1
     else:
         (z1)= -1     
