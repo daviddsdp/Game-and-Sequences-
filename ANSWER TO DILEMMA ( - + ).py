@@ -7,7 +7,7 @@
 import re
 
 
-a = input('+ values to dilemma:')
+a = input('+ values to dilemma:') # you can typ your values system as sentences
 b = input('- values to dilemma:')
 
     
