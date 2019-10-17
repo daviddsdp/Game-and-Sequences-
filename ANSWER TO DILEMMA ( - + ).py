@@ -2,6 +2,7 @@
 # coding: utf-8
 
 # In[ ]:
+
 import re
 
 
@@ -12,11 +13,11 @@ b = input('- values to dilemma:')
 
 while True:
     c = input('Ask me for the dilemma:') # Typ one word per input
-    if re.findall(a,c,re.VERBOSE):
+    if re.findall(c,a,re.VERBOSE):
         (z)= 1
     else:
         (z)= 0 
-    if re.findall(b,c,re.VERBOSE):
+    if re.findall(c,b,re.VERBOSE):
         (z1)= 1
     else:
         (z1)= -1     
