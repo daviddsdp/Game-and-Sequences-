@@ -6,8 +6,8 @@
 import re
 
 
-a = input('+ values to dilemma:') # You can typ your values system as sentences
-b = input('- values to dilemma:')
+a = re.sub(" ",",",input('+ values to dilemma:')) # You can typ your values system as sentences
+b = re.sub(" ",",",input('- values to dilemma:'))
 
     
 
