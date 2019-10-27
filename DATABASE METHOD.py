@@ -8,7 +8,7 @@ import re
 
 
 
-a = input('Paste hier your enconde fun. Then where and when you offer us:')
+a = input('Paste your CVS hier')
     
 b = re.sub(" ",",", a)
 
