@@ -1,10 +1,11 @@
 import re
 
 
-a = re.sub(" ",",", input('+ values to dilemma:')) # You can typ your values system as sentences
-b = re.sub(" ",",", input('- values to dilemma:'))
+a = re.sub(" ",",",input('+ values to dilemma:')) # You can typ your values system as sentences
+b = re.sub(" ",",",input('- values to dilemma:'))
 
-print(a,b)
+print(a)
+print(b)
     
 
 while True:
