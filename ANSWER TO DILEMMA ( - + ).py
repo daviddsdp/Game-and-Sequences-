@@ -4,13 +4,11 @@ import re
 a = re.sub(" ","",input('+ values to dilemma:')) # You can typ your values system as sentences
 b = re.sub(" ","",input('- values to dilemma:'))
 
-print(a)
-print(b)
-    
+
 
 while True:
     c = re.sub(" ","",input('Ask me for the dilemma:'))
-    print(c)
+    
     if re.search(c,a):
         z=   1
     else:
