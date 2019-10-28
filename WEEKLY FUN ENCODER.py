@@ -7,12 +7,12 @@
 import re
 
 
-a = re.sub(" ",",",input('Paste hier your enconde fun. Then where and when you offer us:'))
+a = re.sub(" ","",input('Paste hier your enconde fun. Then where and when you offer us:'))
     
 
 while True:
-    b = input('Tell me please about your fun. Then when and where your looking for:') # Typ one word per input
-    if re.research(b,a):
+    b = re.sub(" ","",input('Tell me please about your fun. Then when and where your looking for:')) # Typ one word per input
+    if  re.research(b,a):
         print('Something happen let you know!')
     else:
         print('Notting happen around the world.') 
