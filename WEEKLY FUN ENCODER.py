@@ -12,7 +12,7 @@ a = re.sub(" ","",input('Paste hier your enconded fun. Then where and when you o
 
 while True:
     b = re.sub(" ","",input('Tell me please about your fun. Then when and where your looking for:')), print("Typ one word per input")
-    if  re.research(b,a):
+    if  re.search(b,a):
         print('Something happen let you know!')
     else:
         print('Notting happen around the world.') 
