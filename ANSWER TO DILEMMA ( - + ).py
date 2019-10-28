@@ -1,15 +1,15 @@
 import re
 
 
-a = re.sub(" ",",",input('+ values to dilemma:')) # You can typ your values system as sentences
-b = re.sub(" ",",",input('- values to dilemma:'))
+a = re.sub(" ","",input('+ values to dilemma:')) # You can typ your values system as sentences
+b = re.sub(" ","",input('- values to dilemma:'))
 
 print(a)
 print(b)
     
 
 while True:
-    c = re.sub(" ",",", input('Ask me for the dilemma:'))
+    c = re.sub(" ","",input('Ask me for the dilemma:'))
     print(c)
     if re.search(c,a):
         z=   1
@@ -26,3 +26,4 @@ while True:
         print('Maybe not!')
     elif 0==(z)+(z1):
         print('Not idea!')
+    
