@@ -1,7 +1,7 @@
 import re
 
 
-a = re.sub(" ","",input('Paste hier your enconded fun. Then where and when you offer us'))
+a = re.sub(" ","|",input('Paste hier your enconded fun. Then where and when you offer us'))
     
 
 while True:
