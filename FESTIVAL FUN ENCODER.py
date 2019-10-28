@@ -1,9 +1,8 @@
 import re
 
 
-a = re.sub(" ","|",input('Typ hier as sentences your enconded fun. Then where and when you offer it us:'))
+a = re.sub(" ","|",input('Type here your encoded fun, then where and when you offer it us:'))
 
-print(a)
     
 
 while True:
@@ -11,7 +10,7 @@ while True:
     if  re.search(a,b):
         print('Something happen let you know!')
     else:
-        print('Notting happen around the world.') 
+        print('Notting happen around the world.')  
 
 
 
